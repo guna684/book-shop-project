@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Source+Sans+3:wght@300;400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Bookstore Design System - Warm Literary Aesthetic */
+
+@layer base {
+  :root {
+    /* Warm cream background */
+    --background: 40 33% 97%;
+    --foreground: 20 14% 15%;
+
+    /* Card surfaces - soft paper white */
+    --card: 40 30% 99%;
+    --card-foreground: 20 14% 15%;
+
+    --popover: 40 30% 99%;
+    --popover-foreground: 20 14% 15%;
+
+    /* Primary - Rich amber gold */
+    --primary: 38 92% 50%;
+    --primary-foreground: 20 14% 10%;
+
+    /* Secondary - Warm sand */
+    --secondary: 35 30% 92%;
+    --secondary-foreground: 20 14% 20%;
+
+    /* Muted - Soft taupe */
+    --muted: 30 15% 90%;
+    --muted-foreground: 20 10% 45%;
+
+    /* Accent - Deep burgundy */
+    --accent: 350 65% 40%;
+    --accent-foreground: 40 30% 98%;
+
+    /* Destructive */
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 100%;
+
+    /* Borders - subtle warm */
+    --border: 35 20% 88%;
+    --input: 35 20% 88%;
+    --ring: 38 92% 50%;
+
+    --radius: 0.75rem;
+
+    /* Custom colors */
+    --gold: 38 92% 50%;
+    --gold-light: 40 85% 70%;
+    --gold-dark: 35 90% 35%;
+    --burgundy: 350 65% 40%;
+    --burgundy-light: 350 50% 55%;
+    --navy: 220 50% 20%;
+    --cream: 40 33% 97%;
+    --paper: 40 30% 99%;
+
+    /* Gradients */
+    --gradient-gold: linear-gradient(135deg, hsl(38 92% 50%), hsl(35 90% 35%));
+    --gradient-warm: linear-gradient(180deg, hsl(40 33% 97%), hsl(35 30% 92%));
+    --gradient-hero: linear-gradient(135deg, hsl(35 25% 15%) 0%, hsl(20 30% 8%) 100%);
+
+    /* Shadows */
+    --shadow-soft: 0 4px 20px -4px hsl(20 14% 15% / 0.08);
+    --shadow-card: 0 8px 30px -8px hsl(20 14% 15% / 0.12);
+    --shadow-elevated: 0 20px 50px -15px hsl(20 14% 15% / 0.2);
+    --shadow-glow: 0 0 40px hsl(38 92% 50% / 0.3);
+
+    /* Sidebar */
+    --sidebar-background: 35 25% 15%;
+    --sidebar-foreground: 40 30% 95%;
+    --sidebar-primary: 38 92% 50%;
+    --sidebar-primary-foreground: 20 14% 10%;
+    --sidebar-accent: 35 20% 25%;
+    --sidebar-accent-foreground: 40 30% 95%;
+    --sidebar-border: 35 20% 25%;
+    --sidebar-ring: 38 92% 50%;
+  }
+
+  .dark {
+    --background: 20 20% 8%;
+    --foreground: 40 30% 95%;
+
+    --card: 20 18% 12%;
+    --card-foreground: 40 30% 95%;
+
+    --popover: 20 18% 12%;
+    --popover-foreground: 40 30% 95%;
+
+    --primary: 38 92% 55%;
+    --primary-foreground: 20 14% 10%;
+
+    --secondary: 20 15% 18%;
+    --secondary-foreground: 40 30% 90%;
+
+    --muted: 20 15% 18%;
+    --muted-foreground: 30 10% 55%;
+
+    --accent: 350 55% 50%;
+    --accent-foreground: 40 30% 98%;
+
+    --destructive: 0 62% 50%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 20 15% 20%;
+    --input: 20 15% 20%;
+    --ring: 38 92% 55%;
+
+    --sidebar-background: 20 20% 6%;
+    --sidebar-foreground: 40 30% 95%;
+    --sidebar-primary: 38 92% 55%;
+    --sidebar-primary-foreground: 20 14% 10%;
+    --sidebar-accent: 20 15% 15%;
+    --sidebar-accent-foreground: 40 30% 95%;
+    --sidebar-border: 20 15% 15%;
+    --sidebar-ring: 38 92% 55%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground font-sans antialiased;
+  }
+
+  /* Hide default eye icon in Edge/IE/Chrome */
+  input[type="password"]::-ms-reveal,
+  input[type="password"]::-ms-clear {
+    display: none;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    @apply font-serif;
+  }
+}
+
+@layer components {
+  .text-gradient-gold {
+    @apply bg-clip-text text-transparent;
+    background-image: var(--gradient-gold);
+  }
+
+  .bg-gradient-hero {
+    background: var(--gradient-hero);
+  }
+
+  .shadow-card {
+    box-shadow: var(--shadow-card);
+  }
+
+  .shadow-elevated {
+    box-shadow: var(--shadow-elevated);
+  }
+
+  .shadow-glow {
+    box-shadow: var(--shadow-glow);
+  }
+}
+
+@layer utilities {
+  .animate-float {
+    animation: float 6s ease-in-out infinite;
+  }
+
+  .animate-fade-up {
+    animation: fadeUp 0.6s ease-out forwards;
+  }
+
+  .animate-scale-in {
+    animation: scaleIn 0.3s ease-out forwards;
+  }
+
+  @keyframes float {
+
+    0%,
+    100% {
+      transform: translateY(0);
+    }
+
+    50% {
+      transform: translateY(-10px);
+    }
+  }
+
+  @keyframes fadeUp {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  @keyframes scaleIn {
+    from {
+      opacity: 0;
+      transform: scale(0.95);
+    }
+
+    to {
+      opacity: 1;
+      transform: scale(1);
+    }
+  }
+}

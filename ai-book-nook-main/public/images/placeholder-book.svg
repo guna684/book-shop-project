@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="300" height="450" viewBox="0 0 300 450">
+  <rect width="300" height="450" fill="#f3f4f6"/>
+  <g transform="translate(150, 225)">
+    <rect x="-60" y="-80" width="120" height="160" fill="#9ca3af" rx="4"/>
+    <rect x="-55" y="-75" width="110" height="150" fill="#d1d5db" rx="2"/>
+    <line x1="-55" y1="-75" x2="-55" y2="75" stroke="#9ca3af" stroke-width="2"/>
+    <text x="0" y="120" font-family="Arial, sans-serif" font-size="16" fill="#6b7280" text-anchor="middle">No Image</text>
+  </g>
+</svg>

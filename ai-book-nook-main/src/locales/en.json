@@ -1,0 +1,666 @@
+{
+    "nav": {
+        "home": "Home",
+        "books": "Books",
+        "categories": "Categories",
+        "bestsellers": "Bestsellers"
+    },
+    "search": {
+        "placeholder": "Search books, authors..."
+    },
+    "auth": {
+        "signIn": "Sign In",
+        "joinNow": "Join Now",
+        "logout": "Logout",
+        "profile": "Profile",
+        "myOrders": "My Orders",
+        "dashboard": "Dashboard",
+        "adminDashboard": "Admin Dashboard",
+        "myAccount": "My Account"
+    },
+    "common": {
+        "bookHaven": "sricholabookshop",
+        "cart": "Cart",
+        "wishlist": "Wishlist",
+        "addToCart": "Add to Cart",
+        "by": "by"
+    },
+    "hero": {
+        "aiPowered": "AI-Powered Recommendations",
+        "welcome": "Welcome to Sri Chola Book Shop",
+        "tagline": "Discover a world of knowledge and imagination",
+        "title": "Discover Your <1>Next Great</1> Adventure",
+        "description": "Explore millions of books from bestsellers to rare finds. Let our AI assistant help you discover your perfect read.",
+        "startExploring": "Start Exploring",
+        "browseCategories": "Browse Categories",
+        "stats": {
+            "books": "Books",
+            "authors": "Authors",
+            "readers": "Readers"
+        }
+    },
+    "bestsellers": {
+        "mostPopular": "Most Popular",
+        "title": "Bestselling Books",
+        "description": "The most loved books by readers worldwide",
+        "viewAll": "View All Bestsellers",
+        "reviews": "reviews"
+    },
+    "featured": {
+        "handpicked": "Handpicked for You",
+        "title": "Featured Books",
+        "description": "Discover our curated selection of must-read titles chosen by our literary experts",
+        "viewAll": "View All Featured"
+    },
+    "books": {
+        "browseBooks": "Browse Books",
+        "discover_count": "Discover from our collection of {{count}}+ books",
+        "priceRange": "Price Range",
+        "bestsellersOnly": "Bestsellers Only",
+        "clearFilters": "Clear All Filters",
+        "noBooks": "No books found",
+        "tryAdjusting": "Try adjusting your filters or search query"
+    },
+    "categories": {
+        "fiction": "Fiction",
+        "non-fiction": "Non-Fiction",
+        "mystery": "Mystery",
+        "romance": "Romance",
+        "sci-fi": "Science Fiction",
+        "self-help": "Self-Help",
+        "biography": "Biography",
+        "childrens": "Children's"
+    },
+    "categorySection": {
+        "title": "Browse by Category",
+        "subtitle": "Find your next read by exploring our diverse collection of categories",
+        "books_count": "{{count}} books",
+        "explore": "Explore"
+    },
+    "aiAssistant": {
+        "badge": "AI-Powered",
+        "title": "Meet Your Personal <1>Book Assistant</1>",
+        "description": "Our AI chatbot understands your reading preferences and helps you discover books you'll love. Just ask naturally - \"Show me thrillers under ₹500\" or \"Books like Harry Potter\".",
+        "tryAssistant": "Try AI Assistant",
+        "features": {
+            "naturalSearch": {
+                "title": "Natural Search",
+                "description": "Ask for books like you would ask a friend"
+            },
+            "smartRecs": {
+                "title": "Smart Recommendations",
+                "description": "Get personalized suggestions based on your taste"
+            },
+            "budgetFriendly": {
+                "title": "Budget Friendly",
+                "description": "Find great reads within your price range"
+            }
+        },
+        "demo": {
+            "title": "Book Assistant",
+            "subtitle": "Always here to help",
+            "userMessage": "Show me mystery books under ₹400",
+            "aiResponse": "Great choice! Here are top mystery picks under ₹400:",
+            "inputPlaceholder": "Ask about books..."
+        }
+    },
+    "footer": {
+        "newsletterTitle": "Stay Updated with New Arrivals",
+        "newsletterSubtitle": "Subscribe to our newsletter and get 10% off your first order",
+        "emailPlaceholder": "Enter your email",
+        "subscribe": "Subscribe",
+        "tagline": "Your one-stop destination for all kinds of books.",
+        "quickLinks": "Quick Links",
+        "categories": "Categories",
+        "contactUs": "Contact Us",
+        "rights": "All rights reserved.",
+        "links": {
+            "about": "About",
+            "contact": "Contact",
+            "faqs": "FAQs",
+            "shipping": "Shipping",
+            "returns": "Returns",
+            "privacy": "Privacy"
+        }
+    },
+    "cart": {
+        "title": "Your Cart",
+        "emptyTitle": "Your Cart is Empty",
+        "emptySubtitle": "Looks like you haven't added any books yet. Start exploring our collection!",
+        "startShopping": "Start Shopping",
+        "items_count": "{{count}} item in your cart",
+        "items_count_plural": "{{count}} items in your cart",
+        "summary": "Order Summary",
+        "subtotal": "Subtotal",
+        "shipping": "Shipping",
+        "free": "FREE",
+        "addMore": "Add ₹{{amount}} more for free shipping",
+        "promoCode": "Promo Code",
+        "promoPlaceholder": "Enter code",
+        "apply": "Apply",
+        "total": "Total",
+        "checkout": "Proceed to Checkout",
+        "continue": "Continue Shopping",
+        "remove": "Remove",
+        "clear": "Clear Cart"
+    },
+    "wishlist": {
+        "title": "My Wishlist",
+        "emptyTitle": "Your wishlist is empty",
+        "browseBooks": "Browse Books"
+    },
+    "about": {
+        "title": "About Sri Chola Book Shop",
+        "subtitle": "We are passionate about connecting readers with their next favorite story at Sri Chola Book Shop.",
+        "ourStory": "Our Story",
+        "ourStoryText": "Founded in 2024, Sri Chola Book Shop started with a simple mission: to make discovering great books easier and more enjoyable. What began as a small online collection has grown into a comprehensive digital bookstore featuring millions of titles across every genre imaginable.",
+        "ourMission": "Our Mission",
+        "ourMissionText": "We believe that books have the power to transform lives. Whether it's learning a new skill, escaping to a fantasy world, or gaining a fresh perspective, every book offers a unique journey. Our goal is to provide a seamless, personalized shopping experience that helps you find exactly what you're looking for.",
+        "whyChooseUs": "Why Choose Us?",
+        "points": {
+            "curated": "Curated Selection: From bestsellers to hidden gems, our collection is carefully managed.",
+            "ai": "AI Recommendations: Our smart algorithms suggest books based on your reading preferences.",
+            "shipping": "Fast Shipping: We ensure your books arrive quickly and in perfect condition.",
+            "community": "Community: Join thousands of other book lovers in our reviews and discussions."
+        }
+    },
+    "contact": {
+        "title": "Contact Us",
+        "subtitle": "Have a question about an order, a book, or just want to say hello? We'd love to hear from you.",
+        "getInTouch": "Get in Touch",
+        "formDescription": "Fill out the form and our team will get back to you within 24 hours.",
+        "location": "Our Location",
+        "phone": "Phone Support",
+        "phoneSub": "Mon-Fri from 9am to 6pm",
+        "email": "Email Us",
+        "emailSub": "We'll reply as soon as possible",
+        "form": {
+            "name": "Your Name",
+            "email": "Email Address",
+            "subject": "Subject",
+            "message": "Message",
+            "placeholderName": "John Doe",
+            "placeholderEmail": "john@example.com",
+            "placeholderSubject": "How can we help?",
+            "placeholderMessage": "Your message here...",
+            "send": "Send Message",
+            "sending": "Sending...",
+            "success": "Message sent successfully! We will get back to you soon.",
+            "error": "Failed to send message"
+        }
+    },
+    "bookDetail": {
+        "backToBooks": "Back to Books",
+        "notFound": "Book Not Found",
+        "notFoundDesc": "Sorry, we couldn't find the book you're looking for.",
+        "browseAll": "Browse All Books",
+        "bestseller": "Bestseller",
+        "off": "OFF",
+        "save": "Save",
+        "inStock": "In Stock ({{count}} available)",
+        "hurry": "Hurry! Only {{count}} left",
+        "outOfStock": "Out of Stock",
+        "features": {
+            "freeDelivery": "Free Delivery",
+            "ordersOver": "Orders over ₹499",
+            "securePayment": "Secure Payment",
+            "gateway": "Cashfree Gateway",
+            "easyReturns": "Easy Returns",
+            "policy": "7-day return policy"
+        },
+        "tabs": {
+            "description": "Description",
+            "details": "Details",
+            "reviews": "Reviews"
+        },
+        "details": {
+            "isbn": "ISBN",
+            "pages": "Pages",
+            "language": "Language",
+            "published": "Published",
+            "category": "Category",
+            "genre": "Genre"
+        },
+        "reviews": {
+            "title": "Customer Reviews",
+            "noReviews": "No reviews yet. Be the first to review!",
+            "writeReview": "Write a Customer Review",
+            "rating": "Rating",
+            "ratings": {
+                "1": "1 - Poor",
+                "2": "2 - Fair",
+                "3": "3 - Good",
+                "4": "4 - Very Good",
+                "5": "5 - Excellent"
+            },
+            "comment": "Comment",
+            "select": "Select...",
+            "submit": "Submit Review",
+            "submitting": "Submitting...",
+            "signInToReview": "Please <1>sign in</1> to write a review",
+            "success": "Review submitted successfully",
+            "error": "Review submission failed"
+        },
+        "related": "You May Also Like",
+        "linkCopied": "Link copied to clipboard!"
+    },
+    "orders": {
+        "placed": "Order Placed",
+        "id": "Order ID",
+        "total": "Total",
+        "invoice": "Invoice",
+        "cancel": "Cancel Order",
+        "confirmCancel": "Are you sure you want to cancel this order?",
+        "failedCancel": "Failed to cancel order",
+        "qty": "Qty",
+        "paid": "Paid",
+        "notPaid": "Not Paid",
+        "empty": {
+            "title": "No orders found",
+            "subtitle": "Start shopping to see your orders here."
+        },
+        "status": {
+            "Pending": "Pending",
+            "Confirmed": "Confirmed",
+            "Processing": "Processing",
+            "Packed": "Packed",
+            "Shipped": "Shipped",
+            "OutForDelivery": "Out for Delivery",
+            "Delivered": "Delivered",
+            "Cancelled": "Cancelled",
+            "Returned": "Returned",
+            "Refunded": "Refunded"
+        }
+    },
+    "data": {
+        "language": {
+            "English": "English",
+            "Tamil": "Tamil"
+        },
+        "genre": {
+            "Personal Development": "Personal Development",
+            "Psychological Thriller": "Psychological Thriller",
+            "Autobiography": "Autobiography",
+            "Philosophical Fiction": "Philosophical Fiction",
+            "Contemporary Fiction": "Contemporary Fiction",
+            "History": "History",
+            "Contemporary Romance": "Contemporary Romance",
+            "Hard Science Fiction": "Hard Science Fiction",
+            "Personal Finance": "Personal Finance",
+            "Classic Literature": "Classic Literature",
+            "Fantasy": "Fantasy"
+        }
+    },
+    "checkout": {
+        "title": "Checkout",
+        "backToCart": "Back to Cart",
+        "empty": "Your cart is empty",
+        "continue": "Continue Shopping",
+        "shippingAddress": "Shipping Address",
+        "fields": {
+            "firstName": "First Name",
+            "lastName": "Last Name",
+            "email": "Email",
+            "phone": "Phone Number",
+            "address": "Street Address",
+            "city": "City",
+            "state": "State",
+            "pincode": "PIN Code",
+            "country": "Country"
+        },
+        "paymentMethod": {
+            "title": "Payment Method",
+            "razorpay": "Razorpay",
+            "razorpayDesc": "Credit/Debit Card, UPI, Netbanking",
+            "cod": "Cash on Delivery",
+            "codDesc": "Pay when you receive",
+            "secured": "Your payment is secured by Razorpay"
+        },
+        "summary": "Order Summary",
+        "applyEncoded": "Apply",
+        "applied": "Applied",
+        "discount": "Discount",
+        "processing": "Processing...",
+        "placeOrder": "Place Order",
+        "messages": {
+            "loginReq": "Please login to place an order",
+            "couponApplied": "Coupon Applied!",
+            "invalidCoupon": "Invalid Coupon",
+            "success": "Payment successful!",
+            "cancelled": "Payment cancelled",
+            "orderPlaced": "Order placed successfully!",
+            "sessionExpired": "Session expired. Please login again.",
+            "failed": "Order failed"
+        }
+    },
+    "admin": {
+        "sidebar": {
+            "management": "Management",
+            "dashboard": "Dashboard",
+            "products": "Products",
+            "categories": "Categories",
+            "orders": "Orders",
+            "users": "Users",
+            "messages": "Messages",
+            "promoCodes": "Promo Codes",
+            "bannerManagement": "Banner Management",
+            "marketing": "Marketing",
+            "adminPortal": "Admin Portal"
+        },
+        "dashboard": {
+            "title": "Dashboard",
+            "welcomeBack": "Welcome back",
+            "totalRevenue": "Total Revenue",
+            "totalOrders": "Total Orders",
+            "totalBooks": "Total Books",
+            "totalUsers": "Total Users",
+            "quickActions": "Quick Actions",
+            "recentActivity": "Recent Activity",
+            "checkOrdersTab": "Check Orders Tab",
+            "visitOrders": "Visit the Orders page to manage and fulfill the latest customer orders.",
+            "goToOrders": "Go to Orders",
+            "trendingUp": "+4.5% from last week",
+            "dateFilter": {
+                "from": "From",
+                "to": "To",
+                "clear": "Clear"
+            },
+            "actions": {
+                "manageProducts": "Manage Products",
+                "manageProductsDesc": "Add, edit, or remove books",
+                "categories": "Categories",
+                "categoriesDesc": "Organize your catalog",
+                "inbox": "Inbox",
+                "inboxDesc": "View customer inquiries"
+            },
+            "analytics": {
+                "title": "Business Analytics",
+                "subtitle": "Comprehensive insights into your store performance",
+                "filterByCategory": "Filter by Category",
+                "allCategories": "All Categories"
+            }
+        },
+        "products": {
+            "title": "Products",
+            "adminProducts": "Admin Products",
+            "createProduct": "Create Product",
+            "editProduct": "Edit Product",
+            "deleteConfirm": "Are you sure you want to delete this book?",
+            "sampleCreated": "Sample book created",
+            "deleteSuccess": "Book deleted successfully",
+            "fetchError": "Failed to fetch books",
+            "deleteError": "Failed to delete book",
+            "createError": "Failed to create book",
+            "updateSuccess": "Product updated successfully",
+            "updateError": "Failed to update product",
+            "table": {
+                "id": "ID",
+                "name": "NAME",
+                "price": "PRICE",
+                "category": "CATEGORY",
+                "author": "AUTHOR",
+                "actions": "ACTIONS"
+            },
+            "form": {
+                "title": "Title",
+                "author": "Author",
+                "price": "Price",
+                "description": "Description",
+                "category": "Category",
+                "image": "Image URL",
+                "stock": "Stock",
+                "isbn": "ISBN",
+                "pages": "Pages",
+                "language": "Language",
+                "publisher": "Publisher",
+                "publishedDate": "Published Date",
+                "isBestseller": "Bestseller",
+                "featured": "Featured Product",
+                "discount": "Discount %"
+            },
+            "update": "Update Product"
+        },
+        "categories": {
+            "title": "Categories",
+            "adminCategories": "Admin Categories",
+            "addCategory": "Add Category",
+            "editCategory": "Edit Category",
+            "deleteConfirm": "Are you sure you want to delete this category?",
+            "createSuccess": "Category created successfully",
+            "updateSuccess": "Category updated successfully",
+            "deleteSuccess": "Category deleted successfully",
+            "fetchError": "Failed to fetch categories",
+            "createError": "Failed to create category",
+            "updateError": "Failed to update category",
+            "deleteError": "Failed to delete category",
+            "addNew": "Add New Category",
+            "noCategories": "No categories found. Start adding some!",
+            "form": {
+                "name": "Name",
+                "description": "Description"
+            },
+            "table": {
+                "name": "NAME",
+                "description": "DESCRIPTION",
+                "actions": "ACTIONS"
+            }
+        },
+        "orders": {
+            "title": "Orders",
+            "adminOrders": "Admin Orders",
+            "updateStatus": "Update Order Status",
+            "currentStatus": "Current Status",
+            "newStatus": "New Status",
+            "selectStatus": "Select status",
+            "saveChanges": "Save Changes",
+            "updating": "Updating...",
+            "statusUpdated": "Order status updated",
+            "updateError": "Failed to update status",
+            "fetchError": "Failed to fetch orders",
+            "table": {
+                "id": "ID",
+                "user": "USER",
+                "date": "DATE",
+                "total": "TOTAL",
+                "status": "STATUS",
+                "paid": "PAID",
+                "actions": "ACTIONS",
+                "update": "Update"
+            },
+            "statuses": {
+                "pending": "Pending",
+                "confirmed": "Confirmed",
+                "processing": "Processing",
+                "packed": "Packed",
+                "shipped": "Shipped",
+                "outForDelivery": "Out for Delivery",
+                "delivered": "Delivered",
+                "cancelled": "Cancelled",
+                "returned": "Returned",
+                "refunded": "Refunded"
+            }
+        },
+        "users": {
+            "title": "Users",
+            "adminUsers": "Admin Users",
+            "editUser": "Edit User",
+            "deleteConfirm": "Are you sure you want to delete this user?",
+            "deleteSuccess": "User deleted successfully",
+            "updateSuccess": "User updated successfully",
+            "fetchError": "Failed to fetch users",
+            "deleteError": "Failed to delete user",
+            "updateError": "Failed to update user",
+            "titleCombined": "Users & Admins",
+            "role": {
+                "admin": "Admin",
+                "user": "User"
+            },
+            "makeAdmin": "Make Admin",
+            "removeAdmin": "Remove Admin",
+            "table": {
+                "id": "ID",
+                "name": "NAME",
+                "email": "EMAIL",
+                "admin": "ADMIN",
+                "actions": "ACTIONS"
+            }
+        },
+        "messages": {
+            "title": "Messages",
+            "adminMessages": "Admin Messages",
+            "inbox": "Inbox",
+            "viewMessage": "View Message",
+            "deleteConfirm": "Are you sure you want to delete this message?",
+            "deleteSuccess": "Message deleted successfully",
+            "markAsRead": "Mark as Read",
+            "markAsUnread": "Mark as Unread",
+            "fetchError": "Failed to fetch messages",
+            "deleteError": "Failed to delete message",
+            "replyTo": "Reply to {{name}}",
+            "sendReply": "Send Reply",
+            "sending": "Sending...",
+            "emailConfigMissing": "EmailJS configuration missing",
+            "replySent": "Reply sent to {{email}}",
+            "replyError": "Failed to send reply",
+            "markReadSuccess": "Message marked as read",
+            "status": {
+                "read": "Read",
+                "new": "New"
+            },
+            "form": {
+                "subject": "Subject",
+                "message": "Message"
+            },
+            "noMessages": "No messages found.",
+            "confirmDelete": "Are you sure you want to delete this message?",
+            "table": {
+                "name": "NAME",
+                "email": "EMAIL",
+                "subject": "SUBJECT",
+                "date": "DATE",
+                "status": "STATUS",
+                "actions": "ACTIONS"
+            }
+        },
+        "newsletter": {
+            "title": "Newsletter",
+            "marketing": "Marketing",
+            "subscribers": "Subscribers",
+            "totalSubscribers": "Total Subscribers",
+            "exportList": "Export List",
+            "deleteConfirm": "Are you sure you want to delete this subscriber?",
+            "deleteSuccess": "Subscriber deleted successfully",
+            "fetchError": "Failed to fetch subscribers",
+            "deleteError": "Failed to delete subscriber",
+            "marketingTitle": "Newsletter Marketing",
+            "subtitle": "Make announcements, share offers, and keep your subscribers engaged.",
+            "sendSuccess": "Newsletter sent successfully!",
+            "sendError": "Failed to send newsletter",
+            "sending": "Sending...",
+            "send": "Send to All Subscribers",
+            "tip": "Tip: You can use simple text or full HTML for rich emails.",
+            "form": {
+                "subject": "Email Subject",
+                "message": "Message Body (HTML supported)"
+            },
+            "placeholders": {
+                "subject": "e.g., Big Sale on Fantasy Books!",
+                "message": "Type your message here... You can use HTML tags for formatting."
+            },
+            "table": {
+                "email": "EMAIL",
+                "date": "DATE SUBSCRIBED",
+                "actions": "ACTIONS"
+            }
+        },
+        "promo": {
+            "title": "Promo Code Management",
+            "create": "Create Promo Code",
+            "editTitle": "Edit Promo Code",
+            "createTitle": "Create New Promo Code",
+            "editDesc": "Update the promo code details below",
+            "createDesc": "Fill in the details to create a new promo code",
+            "noPromos": "No promo codes yet. Create your first one!",
+            "fetchError": "Failed to fetch promo codes",
+            "saveSuccess": "Promo code saved successfully",
+            "saveError": "Failed to save promo code",
+            "deactivateConfirm": "Are you sure you want to deactivate this promo code?",
+            "deactivated": "Promo code deactivated",
+            "activated": "Promo code activated",
+            "updateError": "Failed to update promo code",
+            "form": {
+                "code": "Promo Code",
+                "discountType": "Discount Type",
+                "discountValue": "Discount Value",
+                "minCartValue": "Min Cart Value (₹)",
+                "maxDiscount": "Max Discount (₹) - Optional",
+                "usageLimit": "Total Usage Limit",
+                "perUserLimit": "Per User Limit",
+                "expiryDate": "Expiry Date",
+                "active": "Active"
+            },
+            "discountType": {
+                "percent": "Percentage (%)",
+                "flat": "Flat Amount (₹)"
+            },
+            "placeholders": {
+                "code": "SAVE20",
+                "maxDiscount": "Leave empty for no cap"
+            },
+            "card": {
+                "usage": "Usage",
+                "perUser": "Per User",
+                "expires": "Expires",
+                "minCart": "Min Cart",
+                "times": "time(s)"
+            },
+            "warnings": {
+                "inactive": "This promo code is currently inactive",
+                "expired": "This promo code has expired",
+                "limitReached": "Usage limit reached"
+            }
+        },
+        "profile": {
+            "title": "User Profile",
+            "personalInfo": "Personal Info",
+            "name": "Name",
+            "email": "Email Address",
+            "newPassword": "New Password",
+            "confirmPassword": "Confirm Password",
+            "leaveBlank": "Leave blank to keep current",
+            "confirmNew": "Confirm new password",
+            "shippingAddress": "Shipping Address",
+            "street": "Street Address",
+            "city": "City",
+            "state": "State",
+            "zip": "ZIP Code",
+            "country": "Country",
+            "update": "Update Profile",
+            "success": "Profile updated successfully",
+            "error": "Update failed",
+            "passwordMismatch": "Passwords do not match",
+            "placeholders": {
+                "street": "123 Main St"
+            }
+        },
+        "common": {
+            "loading": "Loading...",
+            "save": "Save",
+            "cancel": "Cancel",
+            "edit": "Edit",
+            "delete": "Delete",
+            "confirm": "Confirm",
+            "back": "Back",
+            "create": "Create",
+            "update": "Update",
+            "search": "Search",
+            "filter": "Filter",
+            "export": "Export",
+            "import": "Import",
+            "refresh": "Refresh",
+            "yes": "Yes",
+            "no": "No",
+            "add": "Add"
+        }
+    }
+}
